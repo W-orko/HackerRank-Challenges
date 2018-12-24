@@ -1,0 +1,9 @@
+    hour = int(s[:2])
+    if 'A' in s and hour == 12:
+        return(str('00') + s[2:8])
+    elif 'A' in s:
+        return(s[:8])
+    elif hour == 12:
+        return(s[:8])
+    else:
+        return(str(int(s[:2])+12) + s[2:8])
