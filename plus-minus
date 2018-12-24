@@ -1,0 +1,14 @@
+    pos = 0
+    neg = 0
+    zer = 0
+    l = len(arr)
+    for x in arr:
+        if x > 0:
+            pos += 1
+        elif x < 0:
+            neg += 1
+        else:
+            zer += 1
+    print(pos/l)
+    print(neg/l)
+    print(zer/l)
