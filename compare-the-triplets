@@ -1,0 +1,14 @@
+    score_a = 0
+    score_b = 0
+    x = 0
+    while x < 3:
+        if a[x] > b[x]:
+            score_a += 1
+            x += 1
+        elif b[x] > a[x]:
+            score_b += 1
+            x += 1
+        elif a[x] == b[x]:
+            x += 1
+            continue
+    return(score_a,score_b)
