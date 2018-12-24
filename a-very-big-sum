@@ -1,0 +1,4 @@
+    sum = 0
+    for x in range(len(ar)):
+        sum += ar[x]
+    return(sum)
